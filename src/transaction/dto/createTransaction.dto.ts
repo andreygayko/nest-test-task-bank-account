@@ -1,6 +1,6 @@
 import { ApiProperty } from '@nestjs/swagger';
 import { IsDateString, IsNotEmpty, IsString } from 'class-validator';
-import { StringToNumber } from 'src/validators/stringToNumber.validator';
+import { StringToNumber } from '../../validators/stringToNumber.validator';
 
 export class CreateTransactionDto {
   @ApiProperty({

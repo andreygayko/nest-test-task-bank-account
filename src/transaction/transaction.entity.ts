@@ -1,5 +1,5 @@
 import { ApiProperty } from '@nestjs/swagger';
-import { AccountEntity } from 'src/account/account.entity';
+import { AccountEntity } from '../account/account.entity';
 import {
   BeforeInsert,
   Column,
